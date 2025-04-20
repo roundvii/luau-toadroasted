@@ -1,4 +1,4 @@
--- loader AND toadroasted coded by roundvii
+-- loader AND kill all coded by roundvii
 -- thanks for using
 
 -- this auto updates, load it using this script

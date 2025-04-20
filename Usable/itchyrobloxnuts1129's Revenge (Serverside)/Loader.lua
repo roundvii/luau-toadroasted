@@ -1,4 +1,4 @@
--- loader AND toadroasted coded by roundvii
+-- loader AND itchyrobloxnuts1129's revenge coded by roundvii
 -- thanks for using
 
 -- this auto updates, load it using this script
