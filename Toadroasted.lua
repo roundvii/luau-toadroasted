@@ -26,6 +26,8 @@ local Skybox = task.spawn(function()
 			FakeSky.Position = Vector3.new(0, 0, 0);
 			FakeSky.Anchored = true;
 			FakeSky.CanCollide = false;
+
+			FakeSky.Name = "FAKETOADSKY";
 			
 			local SpecialMesh = Instance.new("SpecialMesh");
 			
