@@ -1,4 +1,4 @@
--- loader AND kill all coded by roundvii
+-- loader AND black hole coded by roundvii
 -- thanks for using
 
 -- this auto updates, load it using this script
