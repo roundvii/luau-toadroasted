@@ -15,7 +15,7 @@ local Part = Instance.new("Part");
 Part.Anchored = true;
 Part.CanCollide = false;
 Part.Shape = Enum.PartType.Ball;
-Part.Position = Vector3.new(0, 50, 0);
+Part.Position = Vector3.new(math.random(-500, 500), math.random(50, 500), math.random(-500, 500);
 Part.Color = Color3.fromRGB(0, 0, 0);
 Part.Transparency = 0.1;
 Part.Material = Enum.Material.Neon;
@@ -78,15 +78,15 @@ local Destroying = {};
 local MyHint = nil;
 
 while task.wait() do
-	Part.Size += Vector3.new(0.025, 0.025, 0.025);
+	Part.Size += Vector3.new(0.05, 0.05, 0.05);
 	
 	local Descendants = {};
 	local PlayerDescendants = {};
 	
 	for _, Descendant in ipairs(workspace:GetDescendants()) do
-        task.wait();
+        	task.wait();
 		for _, Player in ipairs(Players:GetPlayers()) do
-            task.wait();
+           		task.wait();
 			local Character = Player.Character or Player.CharacterAdded:Wait();
 			
 			for _, descendant in ipairs(Character:GetDescendants()) do
@@ -111,7 +111,7 @@ while task.wait() do
 		end
 		
 		-- ensure its not a player descendant, accidentally replaced this thinking i made a mistake 
-		if not table.find(PlayerDescendants, Descendant) and Descendant ~= Part then
+		if not table.find(PlayerDescendants, Descendant) and Descendant ~= Part and Descendant.Name ~= "BlackHole" then
 			table.insert(Descendants, Descendant);
 		end
 	end
