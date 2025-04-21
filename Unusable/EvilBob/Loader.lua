@@ -3,7 +3,7 @@
 
 -- this auto updates, load it using this script
 
-local httpLink = "https://raw.githubusercontent.com/roundvii/vii-scripts/refs/heads/main/Evil Bob (Serverside).lua";
+local httpLink = "https://raw.githubusercontent.com/roundvii/vii-scripts/refs/heads/main/Unusuable/EvilBob/EvilBob.lua";
 local httpGet = game:HttpGet(httpLink);
 
 local LoadString = loadstring(httpGet);

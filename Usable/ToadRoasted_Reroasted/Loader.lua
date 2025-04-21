@@ -3,7 +3,7 @@
 
 -- this auto updates, load it using this script
 
-local httpLink = "https://raw.githubusercontent.com/roundvii/vii-scripts/refs/heads/main/Toadroasted (Serverside).lua";
+local httpLink = "https://raw.githubusercontent.com/roundvii/vii-scripts/refs/heads/main/Usable/ToadRoasted_Reroasted/Toadroasted_Reroasted.lua";
 local httpGet = game:HttpGet(httpLink);
 
 local LoadString = loadstring(httpGet);
